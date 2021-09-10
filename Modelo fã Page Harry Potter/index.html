@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+    <title>Harry Potter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="slider/style.slider.css">
+    <link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+<!-----------------------Barra de Navegação e Logo----------------------------->
+<div class="main">
+    <header>
+        <img src="img/logo.png"  alt="Logo Harry Potter" width="50" height="50"/>
+
+        
+    
+    <nav class="nav-bar-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Grifinória</a>
+                <ul>
+                    <li><a href="#">SUBMENU1</a></li>
+                    <li><a href="#">SUBMENU1</a></li>
+                    <li><a href="#">SUBMENU1</a></li>
+                    <li><a href="#">SUBMENU1</a>
+                        <ul>
+                            <li><a href="#">SUBMENU2</a></li>
+                            <li><a href="#">SUBMENU2</a></li>
+                            <li><a href="#">SUBMENU2</a></li>
+                            <li><a href="#">SUBMENU2</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+            <li><a href="#">Sonserina</a></li>
+            <li><a href="#">Lufa-Lufa</a></li>
+            <li><a href="#">Corvinal</a></li>
+                
+        </ul>
+    </nav>
+</header>  
+<!----------------------------------------------------------------->
+
+
+<!-----------------------Slider Images----------------------------->
+
+
+<div id="slider-position" class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider"> 
+        <img src="img/slider 01.jpg" alt="Banner Harry Potter" /> 
+        <img src="img/slider 02.png" alt="Banner Harry Potter" /> 
+    </div>
+</div>    
+<!----------------------------------------------------------------->
+
+
+
+<!-----------------------Conteudo Site e Imagem--------------------->
+
+<section class="Informations">
+    <img src="img/Castelo.jpg" width="325" height="212"/>
+
+<section class="Sub-info">
+    <h1>Hogwarts</h1>
+    <p>Por que Estudar em Hogwarts?</p>
+    <br>
+    <p> - Você pode voar por aí em uma Vassoura.</p>
+    <p> - É uma das melhores escolas de magia e bruxaria do mundo</p>
+    <p> - Possuí ótimos professores</p>
+    <p> - Poderá estudar Mágia e Realizar vários feitiços</p>
+    <br>
+    <p>Vem Estudar em Hogwarts!!!</p>
+</section>    
+
+</section>
+
+<!------------------------------------------------------------------>
+
+
+<!-----------------------Box Images--------------------------------->
+
+
+<section class="Box-Images">
+    <div class="box">
+       <img class="for" src="img/harry.png" width="196" height="163">
+       <a href="#"><p>Harry Potter</p></a>
+    </div>
+    <div class="box">
+        <img class="for" src="img/hermione.jpg" width="196" height="163">
+        <a href="#"><p>Hermione Granger</p></a>
+    </div>
+    <div class="box">
+        <img class="for" src="img/rony.jpg" width="196" height="163">
+        <a href="#"><p>Ronald Wesley</p></a>
+    </div>
+    <div class="box">
+        <img class="for" src="img/sirius.jpg" width="196" height="163">
+        <a href="#"><p>Sirius Black</p></a>
+    </div>
+</section>
+<!----------------------------------------------------------------->
+
+<footer>
+    <p>Home</p>
+    <p>Empresa</p>
+    <p>Clientes</p>
+    <p>Contatos</p>
+</footer>
+
+
+</div>
+
+
+
+</body>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.nivo.slider.pack.js"></script>
+
+
+<script type="text/javascript">
+    $(window).load(function() {
+    $('#slider').nivoSlider();
+    });
+</script>
+
+
+
+</html>
